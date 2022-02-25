@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: SansSerif;
+}
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+.plashka{
+  padding: 10px;
+  width: 700px;
+  height: 40px;
+  background: #326dea;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+}
+.plashkaRed{
+  padding: 10px;
+  width: 700px;
+  height: 40px;
+  background: rgba(255, 127, 80, 0.63);
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  max-width: 1000px;
+  max-height: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.buttons{
+width: 250px;
+  height: 30px;
+  font-size: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
+  font-family: sans-serif;
+}
+.loading{
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stroka{
+  width: 700px;
+  height: 30px;
+  padding: 3px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  border: #87929d;
+
+}
+.strokaDate{
+  width: 700px;
+  height: 30px;
+  padding: 3px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border: #87929d;
+
+}
+.radioWrapper{
+  padding-right: 100px;
+  width: 100%;
+  display: block;
+}
+.wrapperForBoard{
+
+}
